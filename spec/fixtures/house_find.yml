@@ -1,0 +1,72 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.anapioficeandfire.com/api/houses/17
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Mon, 26 Dec 2016 15:23:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '625'
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=de5d31212f08468c6920b3393b3a936681482765817; expires=Tue, 26-Dec-17
+        15:23:37 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      cache-control:
+      - no-transform, must-revalidate, max-age=0, private
+      last-modified:
+      - Fri, 23 Dec 2016 14:54:40 GMT
+      etag:
+      - '"85cd203fc8b5474389023af0a5edb906"'
+      vary:
+      - Accept-Encoding
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 317588f72145254f-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"url\": \"http://www.anapioficeandfire.com/api/houses/17\",\r\n
+        \ \"name\": \"House Baratheon of Storm's End\",\r\n  \"region\": \"The Stormlands\",\r\n
+        \ \"coatOfArms\": \"A black crowned stag, on a gold field(Or, a stag salient,
+        crowned, sable)\",\r\n  \"words\": \"Ours is the Fury\",\r\n  \"titles\":
+        [\r\n    \"Lord of Storm's End\",\r\n    \"Lord Paramount of the Stormlands\"\r\n
+        \ ],\r\n  \"seats\": [\r\n    \"Storm's End\",\r\n    \"Dragonstone (House
+        Baratheon of Dragonstone)\"\r\n  ],\r\n  \"currentLord\": \"http://www.anapioficeandfire.com/api/characters/1029\",\r\n
+        \ \"heir\": \"http://www.anapioficeandfire.com/api/characters/775\",\r\n  \"overlord\":
+        \"http://www.anapioficeandfire.com/api/houses/16\",\r\n  \"founded\": \"1
+        AC\",\r\n  \"founder\": \"http://www.anapioficeandfire.com/api/characters/797\",\r\n
+        \ \"diedOut\": \"\",\r\n  \"ancestralWeapons\": [],\r\n  \"cadetBranches\":
+        [\r\n    \"http://www.anapioficeandfire.com/api/houses/15\",\r\n    \"http://www.anapioficeandfire.com/api/houses/16\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/houses/33\",\r\n    \"http://www.anapioficeandfire.com/api/houses/423\"\r\n
+        \ ],\r\n  \"swornMembers\": [\r\n    \"http://www.anapioficeandfire.com/api/characters/110\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/128\",\r\n    \"http://www.anapioficeandfire.com/api/characters/216\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/230\",\r\n    \"http://www.anapioficeandfire.com/api/characters/249\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/315\",\r\n    \"http://www.anapioficeandfire.com/api/characters/435\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/679\",\r\n    \"http://www.anapioficeandfire.com/api/characters/794\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/797\",\r\n    \"http://www.anapioficeandfire.com/api/characters/862\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/870\",\r\n    \"http://www.anapioficeandfire.com/api/characters/986\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/1044\",\r\n    \"http://www.anapioficeandfire.com/api/characters/1188\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/1233\",\r\n    \"http://www.anapioficeandfire.com/api/characters/1355\",\r\n
+        \   \"http://www.anapioficeandfire.com/api/characters/1473\",\r\n    \"http://www.anapioficeandfire.com/api/characters/1552\"\r\n
+        \ ]\r\n}"
+    http_version: 
+  recorded_at: Mon, 26 Dec 2016 15:23:37 GMT
+recorded_with: VCR 3.0.3

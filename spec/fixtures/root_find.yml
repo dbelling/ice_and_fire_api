@@ -1,0 +1,51 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.anapioficeandfire.com/api
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Mon, 26 Dec 2016 15:48:58 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '197'
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d399f94769e96d05df7b73eb33585450f1482767338; expires=Tue, 26-Dec-17
+        15:48:58 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      cache-control:
+      - no-transform, must-revalidate, max-age=0, private
+      last-modified:
+      - Sun, 25 Dec 2016 14:59:30 GMT
+      etag:
+      - '"924aaa7dd8bd4e5eb94c7b9da9b2ae3c"'
+      vary:
+      - Accept-Encoding
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 3175ae1a110f254f-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: "{\r\n  \"books\": \"http://www.anapioficeandfire.com/api/books\",\r\n
+        \ \"characters\": \"http://www.anapioficeandfire.com/api/characters\",\r\n
+        \ \"houses\": \"http://www.anapioficeandfire.com/api/houses\"\r\n}"
+    http_version: 
+  recorded_at: Mon, 26 Dec 2016 15:48:58 GMT
+recorded_with: VCR 3.0.3

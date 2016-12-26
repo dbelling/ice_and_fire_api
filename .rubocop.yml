@@ -1,0 +1,14 @@
+Documentation:
+  Enabled: false
+
+MethodLength:
+  Max: 20
+
+AbcSize:
+  Max: 25
+
+LineLength:
+  Max: 90
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
