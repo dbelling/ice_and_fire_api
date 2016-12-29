@@ -13,14 +13,27 @@ describe IceAndFireApi::Character do
     end
   end
 
-  describe 'find_by_name' do
-    it 'pulls information on jon snow' do
-      VCR.use_cassette('character_find_by_name') do
-        character = IceAndFireApi::Character.find_by_name('Jon Snow')
-        expect(character.first).to be_instance_of IceAndFireApi::Character
-        expect(character.first.name).to eq('Jon Snow')
-        expect(character.first.gender).to eq('Male')
-        expect(character.first.died).to eq('')
+  describe 'find_by' do
+    context 'name' do
+      it 'pulls information on jon snow' do
+        VCR.use_cassette('character_find_by_name') do
+          character = IceAndFireApi::Character.find_by(name: 'Jon Snow')
+          expect(character.first).to be_instance_of IceAndFireApi::Character
+          expect(character.first.name).to eq('Jon Snow')
+          expect(character.first.gender).to eq('Male')
+          expect(character.first.died).to eq('')
+        end
+      end
+    end
+
+    context 'dead women' do
+      it 'filters female characters who are deceased' do
+        VCR.use_cassette('character_find_by_gender') do
+          character = IceAndFireApi::Character.find_by(gender: 'Female', isAlive: false)
+          expect(character.first).to be_instance_of IceAndFireApi::Character
+          expect(character.first.name).to eq('Margaery Tyrell')
+          expect(character.first.gender).to eq('Female')
+        end
       end
     end
   end

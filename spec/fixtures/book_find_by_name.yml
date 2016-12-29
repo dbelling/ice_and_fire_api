@@ -15,7 +15,7 @@ http_interactions:
       message: 
     headers:
       date:
-      - Mon, 26 Dec 2016 15:23:37 GMT
+      - Thu, 29 Dec 2016 17:31:39 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -23,8 +23,8 @@ http_interactions:
       connection:
       - close
       set-cookie:
-      - __cfduid=d38db8d128d8493c6da9268dfa90e25ef1482765816; expires=Tue, 26-Dec-17
-        15:23:36 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      - __cfduid=dfb294b013f2513716ca47b55721d3e481483032699; expires=Fri, 29-Dec-17
+        17:31:39 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
       cache-control:
       - no-transform, must-revalidate, max-age=0, private
       last-modified:
@@ -44,7 +44,7 @@ http_interactions:
       server:
       - cloudflare-nginx
       cf-ray:
-      - 317588f411252525-ORD
+      - 318efca3d6cf55ee-ORD
     body:
       encoding: ASCII-8BIT
       string: "[\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/3\",\r\n
@@ -571,5 +571,5 @@ http_interactions:
         \     \"http://www.anapioficeandfire.com/api/characters/1303\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1319\"\r\n
         \   ]\r\n  }\r\n]"
     http_version: 
-  recorded_at: Mon, 26 Dec 2016 15:23:36 GMT
+  recorded_at: Thu, 29 Dec 2016 17:31:39 GMT
 recorded_with: VCR 3.0.3

@@ -1,0 +1,97 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.anapioficeandfire.com/api/houses?pageSize=5&region=The+North
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Thu, 29 Dec 2016 17:54:19 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '706'
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=df0325115306f4c5598d3a7918ce427d41483034059; expires=Fri, 29-Dec-17
+        17:54:19 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      cache-control:
+      - no-transform, must-revalidate, max-age=0, private
+      last-modified:
+      - Thu, 29 Dec 2016 17:54:19 GMT
+      etag:
+      - '"71b7880ba24a4a10a9f064bc3ad95726"'
+      vary:
+      - Accept-Encoding
+      link:
+      - <http://www.anapioficeandfire.com/api/houses?region=The%20North&page=2&pageSize=5>;
+        rel="next", <http://www.anapioficeandfire.com/api/houses?region=The%20North&page=1&pageSize=5>;
+        rel="first", <http://www.anapioficeandfire.com/api/houses?region=The%20North&page=13&pageSize=5>;
+        rel="last"
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 318f1dd6310c24fb-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: "[\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/houses/3\",\r\n
+        \   \"name\": \"House Amber\",\r\n    \"region\": \"The North\",\r\n    \"coatOfArms\":
+        \"\",\r\n    \"words\": \"\",\r\n    \"titles\": [],\r\n    \"seats\": [],\r\n
+        \   \"currentLord\": \"\",\r\n    \"heir\": \"\",\r\n    \"overlord\": \"\",\r\n
+        \   \"founded\": \"\",\r\n    \"founder\": \"\",\r\n    \"diedOut\": \"\",\r\n
+        \   \"ancestralWeapons\": [],\r\n    \"cadetBranches\": [],\r\n    \"swornMembers\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/houses/9\",\r\n
+        \   \"name\": \"House Ashwood\",\r\n    \"region\": \"The North\",\r\n    \"coatOfArms\":
+        \"\",\r\n    \"words\": \"\",\r\n    \"titles\": [],\r\n    \"seats\": [],\r\n
+        \   \"currentLord\": \"\",\r\n    \"heir\": \"\",\r\n    \"overlord\": \"http://www.anapioficeandfire.com/api/houses/34\",\r\n
+        \   \"founded\": \"\",\r\n    \"founder\": \"\",\r\n    \"diedOut\": \"\",\r\n
+        \   \"ancestralWeapons\": [],\r\n    \"cadetBranches\": [],\r\n    \"swornMembers\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/houses/30\",\r\n
+        \   \"name\": \"House Boggs\",\r\n    \"region\": \"The North\",\r\n    \"coatOfArms\":
+        \"\",\r\n    \"words\": \"\",\r\n    \"titles\": [],\r\n    \"seats\": [],\r\n
+        \   \"currentLord\": \"\",\r\n    \"heir\": \"\",\r\n    \"overlord\": \"http://www.anapioficeandfire.com/api/houses/318\",\r\n
+        \   \"founded\": \"\",\r\n    \"founder\": \"\",\r\n    \"diedOut\": \"\",\r\n
+        \   \"ancestralWeapons\": [],\r\n    \"cadetBranches\": [],\r\n    \"swornMembers\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/houses/32\",\r\n
+        \   \"name\": \"House Bole\",\r\n    \"region\": \"The North\",\r\n    \"coatOfArms\":
+        \"\",\r\n    \"words\": \"\",\r\n    \"titles\": [],\r\n    \"seats\": [],\r\n
+        \   \"currentLord\": \"\",\r\n    \"heir\": \"\",\r\n    \"overlord\": \"http://www.anapioficeandfire.com/api/houses/150\",\r\n
+        \   \"founded\": \"\",\r\n    \"founder\": \"\",\r\n    \"diedOut\": \"\",\r\n
+        \   \"ancestralWeapons\": [],\r\n    \"cadetBranches\": [],\r\n    \"swornMembers\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/houses/34\",\r\n
+        \   \"name\": \"House Bolton of the Dreadfort\",\r\n    \"region\": \"The
+        North\",\r\n    \"coatOfArms\": \"A red flayed man on pink de sang\",\r\n
+        \   \"words\": \"Our Blades are Sharp\",\r\n    \"titles\": [\r\n      \"Red
+        King (Age of Heroes)\",\r\n      \"Lord of the Dreadfort\",\r\n      \"Warden
+        of the North\"\r\n    ],\r\n    \"seats\": [\r\n      \"The Dreadfort\"\r\n
+        \   ],\r\n    \"currentLord\": \"http://www.anapioficeandfire.com/api/characters/933\",\r\n
+        \   \"heir\": \"http://www.anapioficeandfire.com/api/characters/849\",\r\n
+        \   \"overlord\": \"http://www.anapioficeandfire.com/api/houses/16\",\r\n
+        \   \"founded\": \"Age of Heroes\",\r\n    \"founder\": \"\",\r\n    \"diedOut\":
+        \"\",\r\n    \"ancestralWeapons\": [],\r\n    \"cadetBranches\": [],\r\n    \"swornMembers\":
+        [\r\n      \"http://www.anapioficeandfire.com/api/characters/196\",\r\n      \"http://www.anapioficeandfire.com/api/characters/314\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/849\",\r\n      \"http://www.anapioficeandfire.com/api/characters/933\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1084\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1159\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1208\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1313\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1329\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1452\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1492\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1648\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1747\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1949\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2077\"\r\n    ]\r\n
+        \ }\r\n]"
+    http_version: 
+  recorded_at: Thu, 29 Dec 2016 17:54:19 GMT
+recorded_with: VCR 3.0.3

@@ -1,0 +1,753 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.anapioficeandfire.com/api/books?fromReleaseDate=2010-09-22T00%3A00%3A00
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Thu, 29 Dec 2016 17:48:23 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '6780'
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=df3c2009ca6e956a74d5b39ccdc4bce591483033702; expires=Fri, 29-Dec-17
+        17:48:22 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      cache-control:
+      - no-transform, must-revalidate, max-age=0, private
+      last-modified:
+      - Thu, 29 Dec 2016 17:48:23 GMT
+      etag:
+      - '"b4ed718244e24ddeaaed6c2c5234290f"'
+      vary:
+      - Accept-Encoding
+      link:
+      - <http://www.anapioficeandfire.com/api/books?fromReleaseDate=09%2F22%2F2010%2000%3A00%3A00&page=1&pageSize=10>;
+        rel="first", <http://www.anapioficeandfire.com/api/books?fromReleaseDate=09%2F22%2F2010%2000%3A00%3A00&page=1&pageSize=10>;
+        rel="last"
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 318f152097145546-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: "[\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/7\",\r\n
+        \   \"name\": \"The Mystery Knight\",\r\n    \"isbn\": \"978-0765360267\",\r\n
+        \   \"authors\": [\r\n      \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\":
+        416,\r\n    \"publisher\": \"Tor Fantasy\",\r\n    \"country\": \"United States\",\r\n
+        \   \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2011-03-29T00:00:00\",\r\n
+        \   \"characters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/30\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/35\",\r\n      \"http://www.anapioficeandfire.com/api/characters/38\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/41\",\r\n      \"http://www.anapioficeandfire.com/api/characters/46\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/47\",\r\n      \"http://www.anapioficeandfire.com/api/characters/50\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/54\",\r\n      \"http://www.anapioficeandfire.com/api/characters/58\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/61\",\r\n      \"http://www.anapioficeandfire.com/api/characters/83\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/113\",\r\n      \"http://www.anapioficeandfire.com/api/characters/132\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/133\",\r\n      \"http://www.anapioficeandfire.com/api/characters/161\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/192\",\r\n      \"http://www.anapioficeandfire.com/api/characters/224\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/240\",\r\n      \"http://www.anapioficeandfire.com/api/characters/267\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/268\",\r\n      \"http://www.anapioficeandfire.com/api/characters/274\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/276\",\r\n      \"http://www.anapioficeandfire.com/api/characters/278\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/283\",\r\n      \"http://www.anapioficeandfire.com/api/characters/289\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/342\",\r\n      \"http://www.anapioficeandfire.com/api/characters/399\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/428\",\r\n      \"http://www.anapioficeandfire.com/api/characters/431\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/464\",\r\n      \"http://www.anapioficeandfire.com/api/characters/566\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/623\",\r\n      \"http://www.anapioficeandfire.com/api/characters/655\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/695\",\r\n      \"http://www.anapioficeandfire.com/api/characters/729\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/732\",\r\n      \"http://www.anapioficeandfire.com/api/characters/807\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/842\",\r\n      \"http://www.anapioficeandfire.com/api/characters/868\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/921\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1048\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1065\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1067\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1078\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1093\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1117\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1138\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1167\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1242\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1287\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1387\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1392\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1462\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1538\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1589\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1591\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1598\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1636\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1641\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1664\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1694\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1726\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1752\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1823\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1851\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1889\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1966\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1983\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2021\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2054\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2102\"\r\n
+        \   ],\r\n    \"povCharacters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/329\"\r\n
+        \   ]\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/8\",\r\n
+        \   \"name\": \"A Dance with Dragons\",\r\n    \"isbn\": \"978-0553801477\",\r\n
+        \   \"authors\": [\r\n      \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\":
+        1040,\r\n    \"publisher\": \"Bantam Books\",\r\n    \"country\": \"United
+        States\",\r\n    \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2011-07-12T00:00:00\",\r\n
+        \   \"characters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/2\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/4\",\r\n      \"http://www.anapioficeandfire.com/api/characters/11\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/12\",\r\n      \"http://www.anapioficeandfire.com/api/characters/15\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/16\",\r\n      \"http://www.anapioficeandfire.com/api/characters/19\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/21\",\r\n      \"http://www.anapioficeandfire.com/api/characters/22\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/24\",\r\n      \"http://www.anapioficeandfire.com/api/characters/25\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/26\",\r\n      \"http://www.anapioficeandfire.com/api/characters/27\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/28\",\r\n      \"http://www.anapioficeandfire.com/api/characters/31\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/37\",\r\n      \"http://www.anapioficeandfire.com/api/characters/38\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/42\",\r\n      \"http://www.anapioficeandfire.com/api/characters/46\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/47\",\r\n      \"http://www.anapioficeandfire.com/api/characters/52\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/54\",\r\n      \"http://www.anapioficeandfire.com/api/characters/55\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/56\",\r\n      \"http://www.anapioficeandfire.com/api/characters/58\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/60\",\r\n      \"http://www.anapioficeandfire.com/api/characters/62\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/63\",\r\n      \"http://www.anapioficeandfire.com/api/characters/66\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/67\",\r\n      \"http://www.anapioficeandfire.com/api/characters/69\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/72\",\r\n      \"http://www.anapioficeandfire.com/api/characters/77\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/79\",\r\n      \"http://www.anapioficeandfire.com/api/characters/81\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/82\",\r\n      \"http://www.anapioficeandfire.com/api/characters/85\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/89\",\r\n      \"http://www.anapioficeandfire.com/api/characters/91\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/96\",\r\n      \"http://www.anapioficeandfire.com/api/characters/99\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/100\",\r\n      \"http://www.anapioficeandfire.com/api/characters/103\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/108\",\r\n      \"http://www.anapioficeandfire.com/api/characters/112\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/115\",\r\n      \"http://www.anapioficeandfire.com/api/characters/116\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/117\",\r\n      \"http://www.anapioficeandfire.com/api/characters/118\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/123\",\r\n      \"http://www.anapioficeandfire.com/api/characters/124\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/125\",\r\n      \"http://www.anapioficeandfire.com/api/characters/126\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/130\",\r\n      \"http://www.anapioficeandfire.com/api/characters/134\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/139\",\r\n      \"http://www.anapioficeandfire.com/api/characters/140\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/141\",\r\n      \"http://www.anapioficeandfire.com/api/characters/142\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/143\",\r\n      \"http://www.anapioficeandfire.com/api/characters/146\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/147\",\r\n      \"http://www.anapioficeandfire.com/api/characters/149\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/151\",\r\n      \"http://www.anapioficeandfire.com/api/characters/153\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/160\",\r\n      \"http://www.anapioficeandfire.com/api/characters/162\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/164\",\r\n      \"http://www.anapioficeandfire.com/api/characters/165\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/166\",\r\n      \"http://www.anapioficeandfire.com/api/characters/169\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/172\",\r\n      \"http://www.anapioficeandfire.com/api/characters/175\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/176\",\r\n      \"http://www.anapioficeandfire.com/api/characters/177\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/179\",\r\n      \"http://www.anapioficeandfire.com/api/characters/180\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/181\",\r\n      \"http://www.anapioficeandfire.com/api/characters/188\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/189\",\r\n      \"http://www.anapioficeandfire.com/api/characters/190\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/191\",\r\n      \"http://www.anapioficeandfire.com/api/characters/194\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/196\",\r\n      \"http://www.anapioficeandfire.com/api/characters/199\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/200\",\r\n      \"http://www.anapioficeandfire.com/api/characters/201\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/202\",\r\n      \"http://www.anapioficeandfire.com/api/characters/203\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/205\",\r\n      \"http://www.anapioficeandfire.com/api/characters/206\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/209\",\r\n      \"http://www.anapioficeandfire.com/api/characters/214\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/216\",\r\n      \"http://www.anapioficeandfire.com/api/characters/217\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/220\",\r\n      \"http://www.anapioficeandfire.com/api/characters/222\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/223\",\r\n      \"http://www.anapioficeandfire.com/api/characters/229\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/230\",\r\n      \"http://www.anapioficeandfire.com/api/characters/232\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/235\",\r\n      \"http://www.anapioficeandfire.com/api/characters/243\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/245\",\r\n      \"http://www.anapioficeandfire.com/api/characters/246\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/247\",\r\n      \"http://www.anapioficeandfire.com/api/characters/251\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/258\",\r\n      \"http://www.anapioficeandfire.com/api/characters/261\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/263\",\r\n      \"http://www.anapioficeandfire.com/api/characters/264\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/267\",\r\n      \"http://www.anapioficeandfire.com/api/characters/271\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/273\",\r\n      \"http://www.anapioficeandfire.com/api/characters/274\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/277\",\r\n      \"http://www.anapioficeandfire.com/api/characters/278\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/279\",\r\n      \"http://www.anapioficeandfire.com/api/characters/280\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/282\",\r\n      \"http://www.anapioficeandfire.com/api/characters/285\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/291\",\r\n      \"http://www.anapioficeandfire.com/api/characters/292\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/293\",\r\n      \"http://www.anapioficeandfire.com/api/characters/294\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/298\",\r\n      \"http://www.anapioficeandfire.com/api/characters/303\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/308\",\r\n      \"http://www.anapioficeandfire.com/api/characters/309\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/313\",\r\n      \"http://www.anapioficeandfire.com/api/characters/314\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/315\",\r\n      \"http://www.anapioficeandfire.com/api/characters/317\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/323\",\r\n      \"http://www.anapioficeandfire.com/api/characters/326\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/327\",\r\n      \"http://www.anapioficeandfire.com/api/characters/329\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/330\",\r\n      \"http://www.anapioficeandfire.com/api/characters/331\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/336\",\r\n      \"http://www.anapioficeandfire.com/api/characters/337\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/338\",\r\n      \"http://www.anapioficeandfire.com/api/characters/339\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/341\",\r\n      \"http://www.anapioficeandfire.com/api/characters/345\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/346\",\r\n      \"http://www.anapioficeandfire.com/api/characters/349\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/357\",\r\n      \"http://www.anapioficeandfire.com/api/characters/359\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/361\",\r\n      \"http://www.anapioficeandfire.com/api/characters/362\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/364\",\r\n      \"http://www.anapioficeandfire.com/api/characters/368\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/369\",\r\n      \"http://www.anapioficeandfire.com/api/characters/377\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/380\",\r\n      \"http://www.anapioficeandfire.com/api/characters/382\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/385\",\r\n      \"http://www.anapioficeandfire.com/api/characters/387\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/392\",\r\n      \"http://www.anapioficeandfire.com/api/characters/393\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/396\",\r\n      \"http://www.anapioficeandfire.com/api/characters/397\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/401\",\r\n      \"http://www.anapioficeandfire.com/api/characters/402\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/403\",\r\n      \"http://www.anapioficeandfire.com/api/characters/405\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/406\",\r\n      \"http://www.anapioficeandfire.com/api/characters/408\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/413\",\r\n      \"http://www.anapioficeandfire.com/api/characters/415\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/416\",\r\n      \"http://www.anapioficeandfire.com/api/characters/417\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/418\",\r\n      \"http://www.anapioficeandfire.com/api/characters/419\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/420\",\r\n      \"http://www.anapioficeandfire.com/api/characters/424\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/426\",\r\n      \"http://www.anapioficeandfire.com/api/characters/429\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/430\",\r\n      \"http://www.anapioficeandfire.com/api/characters/434\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/438\",\r\n      \"http://www.anapioficeandfire.com/api/characters/439\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/445\",\r\n      \"http://www.anapioficeandfire.com/api/characters/446\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/452\",\r\n      \"http://www.anapioficeandfire.com/api/characters/453\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/458\",\r\n      \"http://www.anapioficeandfire.com/api/characters/462\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/466\",\r\n      \"http://www.anapioficeandfire.com/api/characters/470\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/471\",\r\n      \"http://www.anapioficeandfire.com/api/characters/473\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/476\",\r\n      \"http://www.anapioficeandfire.com/api/characters/477\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/480\",\r\n      \"http://www.anapioficeandfire.com/api/characters/482\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/483\",\r\n      \"http://www.anapioficeandfire.com/api/characters/487\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/490\",\r\n      \"http://www.anapioficeandfire.com/api/characters/495\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/496\",\r\n      \"http://www.anapioficeandfire.com/api/characters/498\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/499\",\r\n      \"http://www.anapioficeandfire.com/api/characters/501\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/503\",\r\n      \"http://www.anapioficeandfire.com/api/characters/504\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/505\",\r\n      \"http://www.anapioficeandfire.com/api/characters/506\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/510\",\r\n      \"http://www.anapioficeandfire.com/api/characters/512\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/515\",\r\n      \"http://www.anapioficeandfire.com/api/characters/516\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/519\",\r\n      \"http://www.anapioficeandfire.com/api/characters/521\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/524\",\r\n      \"http://www.anapioficeandfire.com/api/characters/525\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/526\",\r\n      \"http://www.anapioficeandfire.com/api/characters/527\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/530\",\r\n      \"http://www.anapioficeandfire.com/api/characters/531\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/532\",\r\n      \"http://www.anapioficeandfire.com/api/characters/533\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/535\",\r\n      \"http://www.anapioficeandfire.com/api/characters/536\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/537\",\r\n      \"http://www.anapioficeandfire.com/api/characters/539\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/541\",\r\n      \"http://www.anapioficeandfire.com/api/characters/547\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/557\",\r\n      \"http://www.anapioficeandfire.com/api/characters/562\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/564\",\r\n      \"http://www.anapioficeandfire.com/api/characters/565\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/571\",\r\n      \"http://www.anapioficeandfire.com/api/characters/572\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/573\",\r\n      \"http://www.anapioficeandfire.com/api/characters/579\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/580\",\r\n      \"http://www.anapioficeandfire.com/api/characters/582\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/585\",\r\n      \"http://www.anapioficeandfire.com/api/characters/586\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/588\",\r\n      \"http://www.anapioficeandfire.com/api/characters/594\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/595\",\r\n      \"http://www.anapioficeandfire.com/api/characters/597\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/600\",\r\n      \"http://www.anapioficeandfire.com/api/characters/601\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/604\",\r\n      \"http://www.anapioficeandfire.com/api/characters/612\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/613\",\r\n      \"http://www.anapioficeandfire.com/api/characters/616\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/622\",\r\n      \"http://www.anapioficeandfire.com/api/characters/625\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/627\",\r\n      \"http://www.anapioficeandfire.com/api/characters/629\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/630\",\r\n      \"http://www.anapioficeandfire.com/api/characters/631\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/632\",\r\n      \"http://www.anapioficeandfire.com/api/characters/633\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/635\",\r\n      \"http://www.anapioficeandfire.com/api/characters/638\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/639\",\r\n      \"http://www.anapioficeandfire.com/api/characters/640\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/642\",\r\n      \"http://www.anapioficeandfire.com/api/characters/644\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/645\",\r\n      \"http://www.anapioficeandfire.com/api/characters/649\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/651\",\r\n      \"http://www.anapioficeandfire.com/api/characters/653\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/654\",\r\n      \"http://www.anapioficeandfire.com/api/characters/659\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/660\",\r\n      \"http://www.anapioficeandfire.com/api/characters/662\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/667\",\r\n      \"http://www.anapioficeandfire.com/api/characters/669\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/670\",\r\n      \"http://www.anapioficeandfire.com/api/characters/673\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/676\",\r\n      \"http://www.anapioficeandfire.com/api/characters/677\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/678\",\r\n      \"http://www.anapioficeandfire.com/api/characters/681\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/682\",\r\n      \"http://www.anapioficeandfire.com/api/characters/687\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/688\",\r\n      \"http://www.anapioficeandfire.com/api/characters/690\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/691\",\r\n      \"http://www.anapioficeandfire.com/api/characters/692\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/697\",\r\n      \"http://www.anapioficeandfire.com/api/characters/705\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/707\",\r\n      \"http://www.anapioficeandfire.com/api/characters/708\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/710\",\r\n      \"http://www.anapioficeandfire.com/api/characters/713\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/715\",\r\n      \"http://www.anapioficeandfire.com/api/characters/718\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/719\",\r\n      \"http://www.anapioficeandfire.com/api/characters/720\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/721\",\r\n      \"http://www.anapioficeandfire.com/api/characters/725\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/728\",\r\n      \"http://www.anapioficeandfire.com/api/characters/731\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/735\",\r\n      \"http://www.anapioficeandfire.com/api/characters/736\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/739\",\r\n      \"http://www.anapioficeandfire.com/api/characters/740\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/744\",\r\n      \"http://www.anapioficeandfire.com/api/characters/746\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/751\",\r\n      \"http://www.anapioficeandfire.com/api/characters/752\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/754\",\r\n      \"http://www.anapioficeandfire.com/api/characters/758\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/760\",\r\n      \"http://www.anapioficeandfire.com/api/characters/764\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/765\",\r\n      \"http://www.anapioficeandfire.com/api/characters/766\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/768\",\r\n      \"http://www.anapioficeandfire.com/api/characters/774\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/775\",\r\n      \"http://www.anapioficeandfire.com/api/characters/776\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/778\",\r\n      \"http://www.anapioficeandfire.com/api/characters/780\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/781\",\r\n      \"http://www.anapioficeandfire.com/api/characters/782\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/784\",\r\n      \"http://www.anapioficeandfire.com/api/characters/786\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/788\",\r\n      \"http://www.anapioficeandfire.com/api/characters/793\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/795\",\r\n      \"http://www.anapioficeandfire.com/api/characters/796\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/798\",\r\n      \"http://www.anapioficeandfire.com/api/characters/799\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/801\",\r\n      \"http://www.anapioficeandfire.com/api/characters/802\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/803\",\r\n      \"http://www.anapioficeandfire.com/api/characters/804\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/805\",\r\n      \"http://www.anapioficeandfire.com/api/characters/806\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/814\",\r\n      \"http://www.anapioficeandfire.com/api/characters/815\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/818\",\r\n      \"http://www.anapioficeandfire.com/api/characters/819\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/820\",\r\n      \"http://www.anapioficeandfire.com/api/characters/823\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/825\",\r\n      \"http://www.anapioficeandfire.com/api/characters/826\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/827\",\r\n      \"http://www.anapioficeandfire.com/api/characters/829\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/830\",\r\n      \"http://www.anapioficeandfire.com/api/characters/832\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/837\",\r\n      \"http://www.anapioficeandfire.com/api/characters/845\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/846\",\r\n      \"http://www.anapioficeandfire.com/api/characters/847\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/848\",\r\n      \"http://www.anapioficeandfire.com/api/characters/849\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/850\",\r\n      \"http://www.anapioficeandfire.com/api/characters/854\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/857\",\r\n      \"http://www.anapioficeandfire.com/api/characters/858\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/860\",\r\n      \"http://www.anapioficeandfire.com/api/characters/861\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/862\",\r\n      \"http://www.anapioficeandfire.com/api/characters/866\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/867\",\r\n      \"http://www.anapioficeandfire.com/api/characters/869\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/870\",\r\n      \"http://www.anapioficeandfire.com/api/characters/874\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/876\",\r\n      \"http://www.anapioficeandfire.com/api/characters/881\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/883\",\r\n      \"http://www.anapioficeandfire.com/api/characters/884\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/885\",\r\n      \"http://www.anapioficeandfire.com/api/characters/887\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/891\",\r\n      \"http://www.anapioficeandfire.com/api/characters/894\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/901\",\r\n      \"http://www.anapioficeandfire.com/api/characters/903\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/907\",\r\n      \"http://www.anapioficeandfire.com/api/characters/908\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/909\",\r\n      \"http://www.anapioficeandfire.com/api/characters/912\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/913\",\r\n      \"http://www.anapioficeandfire.com/api/characters/914\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/915\",\r\n      \"http://www.anapioficeandfire.com/api/characters/917\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/922\",\r\n      \"http://www.anapioficeandfire.com/api/characters/925\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/928\",\r\n      \"http://www.anapioficeandfire.com/api/characters/932\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/933\",\r\n      \"http://www.anapioficeandfire.com/api/characters/934\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/936\",\r\n      \"http://www.anapioficeandfire.com/api/characters/937\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/943\",\r\n      \"http://www.anapioficeandfire.com/api/characters/950\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/955\",\r\n      \"http://www.anapioficeandfire.com/api/characters/957\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/960\",\r\n      \"http://www.anapioficeandfire.com/api/characters/962\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/963\",\r\n      \"http://www.anapioficeandfire.com/api/characters/965\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/966\",\r\n      \"http://www.anapioficeandfire.com/api/characters/969\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/970\",\r\n      \"http://www.anapioficeandfire.com/api/characters/972\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/973\",\r\n      \"http://www.anapioficeandfire.com/api/characters/975\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/976\",\r\n      \"http://www.anapioficeandfire.com/api/characters/979\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/980\",\r\n      \"http://www.anapioficeandfire.com/api/characters/984\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/986\",\r\n      \"http://www.anapioficeandfire.com/api/characters/992\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/994\",\r\n      \"http://www.anapioficeandfire.com/api/characters/995\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/998\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1002\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1004\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1005\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1006\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1009\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1010\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1011\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1013\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1014\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1018\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1020\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1023\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1025\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1027\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1029\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1031\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1033\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1035\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1036\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1039\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1042\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1043\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1047\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1049\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1051\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1054\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1055\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1057\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1058\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1061\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1063\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1078\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1079\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1080\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1084\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1089\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1091\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1092\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1093\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1096\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1097\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1098\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1099\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1102\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1105\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1106\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1107\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1110\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1113\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1114\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1115\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1116\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1118\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1122\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1123\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1124\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1126\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1129\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1131\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1133\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1137\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1141\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1142\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1144\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1146\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1147\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1150\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1151\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1155\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1158\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1159\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1160\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1164\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1172\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1177\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1179\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1180\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1183\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1184\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1187\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1188\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1189\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1191\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1196\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1198\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1205\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1208\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1212\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1218\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1223\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1225\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1229\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1235\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1236\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1238\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1241\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1242\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1243\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1244\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1249\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1253\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1255\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1259\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1262\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1268\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1274\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1275\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1277\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1279\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1280\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1283\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1285\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1289\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1292\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1293\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1296\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1298\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1301\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1306\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1310\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1311\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1313\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1315\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1316\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1317\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1321\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1326\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1327\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1328\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1329\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1331\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1333\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1334\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1335\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1339\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1340\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1341\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1343\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1344\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1346\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1347\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1350\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1352\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1355\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1357\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1358\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1362\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1363\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1364\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1365\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1367\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1369\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1372\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1373\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1381\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1382\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1383\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1386\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1393\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1394\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1397\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1406\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1409\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1410\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1412\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1414\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1415\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1416\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1421\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1423\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1424\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1425\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1426\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1427\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1428\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1429\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1431\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1434\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1439\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1440\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1441\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1442\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1443\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1444\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1445\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1449\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1450\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1451\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1452\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1461\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1464\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1465\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1468\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1469\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1472\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1475\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1476\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1477\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1478\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1479\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1481\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1485\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1487\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1488\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1490\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1491\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1492\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1498\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1501\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1502\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1506\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1507\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1512\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1514\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1515\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1516\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1520\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1521\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1523\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1524\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1531\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1532\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1533\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1537\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1539\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1540\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1544\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1546\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1547\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1548\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1549\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1559\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1560\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1570\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1572\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1577\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1578\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1579\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1580\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1582\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1584\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1586\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1588\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1590\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1594\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1600\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1602\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1607\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1609\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1611\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1612\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1617\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1618\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1621\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1622\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1623\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1627\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1630\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1632\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1640\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1646\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1648\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1649\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1650\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1653\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1655\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1658\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1660\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1666\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1667\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1668\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1671\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1673\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1674\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1676\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1682\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1683\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1684\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1686\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1691\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1693\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1696\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1697\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1701\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1703\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1705\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1706\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1707\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1708\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1709\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1713\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1715\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1719\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1720\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1727\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1728\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1732\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1733\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1735\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1740\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1741\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1743\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1745\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1748\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1749\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1753\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1755\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1758\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1762\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1765\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1766\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1768\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1769\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1770\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1773\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1775\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1776\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1777\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1780\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1781\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1782\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1783\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1785\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1787\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1794\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1795\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1797\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1798\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1809\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1815\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1825\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1826\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1828\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1830\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1831\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1832\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1834\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1836\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1839\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1840\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1841\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1848\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1852\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1854\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1856\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1857\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1858\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1859\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1862\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1866\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1867\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1868\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1870\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1872\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1876\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1880\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1886\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1888\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1895\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1897\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1899\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1900\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1904\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1907\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1910\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1914\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1916\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1917\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1922\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1923\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1925\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1930\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1931\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1935\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1937\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1938\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1939\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1944\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1948\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1949\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1954\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1956\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1957\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1958\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1961\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1962\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1963\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1964\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1965\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1967\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1970\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1972\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1976\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1977\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1978\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1979\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1981\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1994\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1996\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1999\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2000\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2002\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2005\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2006\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2008\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2009\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2013\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2014\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2020\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2022\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2023\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2024\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2026\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2027\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2032\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2033\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2036\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2039\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2040\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2041\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2043\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2044\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2045\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2050\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2065\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2069\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2071\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2072\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2073\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2077\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2078\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2080\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2085\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2097\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2108\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2109\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2112\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2117\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2118\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2122\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2124\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2125\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2126\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2132\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2135\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2136\"\r\n    ],\r\n
+        \   \"povCharacters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/148\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/150\",\r\n      \"http://www.anapioficeandfire.com/api/characters/168\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/208\",\r\n      \"http://www.anapioficeandfire.com/api/characters/238\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/529\",\r\n      \"http://www.anapioficeandfire.com/api/characters/576\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/583\",\r\n      \"http://www.anapioficeandfire.com/api/characters/605\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/743\",\r\n      \"http://www.anapioficeandfire.com/api/characters/844\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1022\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1052\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1074\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1166\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1303\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1319\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2066\"\r\n    ]\r\n
+        \ },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/9\",\r\n
+        \   \"name\": \"The Princess and the Queen\",\r\n    \"isbn\": \"978-0765332066\",\r\n
+        \   \"authors\": [\r\n      \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\":
+        784,\r\n    \"publisher\": \"Tor Books\",\r\n    \"country\": \"United States\",\r\n
+        \   \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2013-12-03T00:00:00\",\r\n
+        \   \"characters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/33\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/38\",\r\n      \"http://www.anapioficeandfire.com/api/characters/39\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/40\",\r\n      \"http://www.anapioficeandfire.com/api/characters/49\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/55\",\r\n      \"http://www.anapioficeandfire.com/api/characters/76\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/91\",\r\n      \"http://www.anapioficeandfire.com/api/characters/154\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/157\",\r\n      \"http://www.anapioficeandfire.com/api/characters/242\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/253\",\r\n      \"http://www.anapioficeandfire.com/api/characters/259\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/269\",\r\n      \"http://www.anapioficeandfire.com/api/characters/275\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/386\",\r\n      \"http://www.anapioficeandfire.com/api/characters/449\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/481\",\r\n      \"http://www.anapioficeandfire.com/api/characters/488\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/526\",\r\n      \"http://www.anapioficeandfire.com/api/characters/538\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/543\",\r\n      \"http://www.anapioficeandfire.com/api/characters/548\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/610\",\r\n      \"http://www.anapioficeandfire.com/api/characters/611\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/618\",\r\n      \"http://www.anapioficeandfire.com/api/characters/643\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/646\",\r\n      \"http://www.anapioficeandfire.com/api/characters/671\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/680\",\r\n      \"http://www.anapioficeandfire.com/api/characters/685\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/694\",\r\n      \"http://www.anapioficeandfire.com/api/characters/696\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/808\",\r\n      \"http://www.anapioficeandfire.com/api/characters/871\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/873\",\r\n      \"http://www.anapioficeandfire.com/api/characters/874\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/875\",\r\n      \"http://www.anapioficeandfire.com/api/characters/888\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/987\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1050\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1076\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1077\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1119\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1318\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1458\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1513\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1517\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1527\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1528\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1739\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1746\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1756\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1786\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1884\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2048\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2138\"\r\n
+        \   ],\r\n    \"povCharacters\": []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/10\",\r\n
+        \   \"name\": \"The Rogue Prince\",\r\n    \"isbn\": \"978-0345537263\",\r\n
+        \   \"authors\": [\r\n      \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\":
+        832,\r\n    \"publisher\": \"Bantam Books\",\r\n    \"country\": \"United
+        States\",\r\n    \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2014-06-17T00:00:00\",\r\n
+        \   \"characters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/39\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/40\",\r\n      \"http://www.anapioficeandfire.com/api/characters/49\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/55\",\r\n      \"http://www.anapioficeandfire.com/api/characters/76\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/105\",\r\n      \"http://www.anapioficeandfire.com/api/characters/154\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/156\",\r\n      \"http://www.anapioficeandfire.com/api/characters/157\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/169\",\r\n      \"http://www.anapioficeandfire.com/api/characters/253\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/265\",\r\n      \"http://www.anapioficeandfire.com/api/characters/269\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/275\",\r\n      \"http://www.anapioficeandfire.com/api/characters/386\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/479\",\r\n      \"http://www.anapioficeandfire.com/api/characters/481\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/488\",\r\n      \"http://www.anapioficeandfire.com/api/characters/526\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/538\",\r\n      \"http://www.anapioficeandfire.com/api/characters/548\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/567\",\r\n      \"http://www.anapioficeandfire.com/api/characters/569\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/610\",\r\n      \"http://www.anapioficeandfire.com/api/characters/611\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/618\",\r\n      \"http://www.anapioficeandfire.com/api/characters/675\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/684\",\r\n      \"http://www.anapioficeandfire.com/api/characters/694\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/696\",\r\n      \"http://www.anapioficeandfire.com/api/characters/808\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/871\",\r\n      \"http://www.anapioficeandfire.com/api/characters/873\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/874\",\r\n      \"http://www.anapioficeandfire.com/api/characters/875\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/878\",\r\n      \"http://www.anapioficeandfire.com/api/characters/945\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/951\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1050\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1066\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1076\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1077\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1291\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1419\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1458\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1527\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1528\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1699\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1739\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1746\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1833\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1850\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1884\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1912\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2138\"\r\n
+        \   ],\r\n    \"povCharacters\": []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/11\",\r\n
+        \   \"name\": \"The World of Ice and Fire\",\r\n    \"isbn\": \"978-0553805444\",\r\n
+        \   \"authors\": [\r\n      \"Elio Garcia\",\r\n      \"Linda Antonsson\",\r\n
+        \     \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\": 336,\r\n
+        \   \"publisher\": \"Bantam Books\",\r\n    \"country\": \"United States\",\r\n
+        \   \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2014-10-28T00:00:00\",\r\n
+        \   \"characters\": [\r\n      \"http://www.anapioficeandfire.com/api/characters/27\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/33\",\r\n      \"http://www.anapioficeandfire.com/api/characters/34\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/38\",\r\n      \"http://www.anapioficeandfire.com/api/characters/39\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/40\",\r\n      \"http://www.anapioficeandfire.com/api/characters/41\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/42\",\r\n      \"http://www.anapioficeandfire.com/api/characters/43\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/44\",\r\n      \"http://www.anapioficeandfire.com/api/characters/45\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/46\",\r\n      \"http://www.anapioficeandfire.com/api/characters/47\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/48\",\r\n      \"http://www.anapioficeandfire.com/api/characters/49\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/55\",\r\n      \"http://www.anapioficeandfire.com/api/characters/57\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/58\",\r\n      \"http://www.anapioficeandfire.com/api/characters/59\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/61\",\r\n      \"http://www.anapioficeandfire.com/api/characters/62\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/65\",\r\n      \"http://www.anapioficeandfire.com/api/characters/75\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/76\",\r\n      \"http://www.anapioficeandfire.com/api/characters/83\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/90\",\r\n      \"http://www.anapioficeandfire.com/api/characters/91\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/93\",\r\n      \"http://www.anapioficeandfire.com/api/characters/97\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/98\",\r\n      \"http://www.anapioficeandfire.com/api/characters/101\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/105\",\r\n      \"http://www.anapioficeandfire.com/api/characters/109\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/110\",\r\n      \"http://www.anapioficeandfire.com/api/characters/128\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/129\",\r\n      \"http://www.anapioficeandfire.com/api/characters/136\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/137\",\r\n      \"http://www.anapioficeandfire.com/api/characters/142\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/143\",\r\n      \"http://www.anapioficeandfire.com/api/characters/144\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/154\",\r\n      \"http://www.anapioficeandfire.com/api/characters/155\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/157\",\r\n      \"http://www.anapioficeandfire.com/api/characters/160\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/161\",\r\n      \"http://www.anapioficeandfire.com/api/characters/165\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/168\",\r\n      \"http://www.anapioficeandfire.com/api/characters/169\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/170\",\r\n      \"http://www.anapioficeandfire.com/api/characters/178\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/192\",\r\n      \"http://www.anapioficeandfire.com/api/characters/195\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/197\",\r\n      \"http://www.anapioficeandfire.com/api/characters/207\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/209\",\r\n      \"http://www.anapioficeandfire.com/api/characters/226\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/231\",\r\n      \"http://www.anapioficeandfire.com/api/characters/235\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/236\",\r\n      \"http://www.anapioficeandfire.com/api/characters/239\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/244\",\r\n      \"http://www.anapioficeandfire.com/api/characters/253\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/255\",\r\n      \"http://www.anapioficeandfire.com/api/characters/256\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/257\",\r\n      \"http://www.anapioficeandfire.com/api/characters/259\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/265\",\r\n      \"http://www.anapioficeandfire.com/api/characters/266\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/267\",\r\n      \"http://www.anapioficeandfire.com/api/characters/268\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/269\",\r\n      \"http://www.anapioficeandfire.com/api/characters/270\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/271\",\r\n      \"http://www.anapioficeandfire.com/api/characters/272\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/273\",\r\n      \"http://www.anapioficeandfire.com/api/characters/274\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/275\",\r\n      \"http://www.anapioficeandfire.com/api/characters/276\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/282\",\r\n      \"http://www.anapioficeandfire.com/api/characters/284\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/289\",\r\n      \"http://www.anapioficeandfire.com/api/characters/324\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/329\",\r\n      \"http://www.anapioficeandfire.com/api/characters/330\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/333\",\r\n      \"http://www.anapioficeandfire.com/api/characters/334\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/339\",\r\n      \"http://www.anapioficeandfire.com/api/characters/347\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/349\",\r\n      \"http://www.anapioficeandfire.com/api/characters/351\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/363\",\r\n      \"http://www.anapioficeandfire.com/api/characters/366\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/367\",\r\n      \"http://www.anapioficeandfire.com/api/characters/391\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/395\",\r\n      \"http://www.anapioficeandfire.com/api/characters/410\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/418\",\r\n      \"http://www.anapioficeandfire.com/api/characters/422\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/425\",\r\n      \"http://www.anapioficeandfire.com/api/characters/431\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/457\",\r\n      \"http://www.anapioficeandfire.com/api/characters/460\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/467\",\r\n      \"http://www.anapioficeandfire.com/api/characters/471\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/472\",\r\n      \"http://www.anapioficeandfire.com/api/characters/475\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/481\",\r\n      \"http://www.anapioficeandfire.com/api/characters/484\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/487\",\r\n      \"http://www.anapioficeandfire.com/api/characters/488\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/492\",\r\n      \"http://www.anapioficeandfire.com/api/characters/497\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/525\",\r\n      \"http://www.anapioficeandfire.com/api/characters/526\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/527\",\r\n      \"http://www.anapioficeandfire.com/api/characters/538\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/546\",\r\n      \"http://www.anapioficeandfire.com/api/characters/548\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/554\",\r\n      \"http://www.anapioficeandfire.com/api/characters/556\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/560\",\r\n      \"http://www.anapioficeandfire.com/api/characters/570\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/572\",\r\n      \"http://www.anapioficeandfire.com/api/characters/576\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/584\",\r\n      \"http://www.anapioficeandfire.com/api/characters/589\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/610\",\r\n      \"http://www.anapioficeandfire.com/api/characters/611\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/615\",\r\n      \"http://www.anapioficeandfire.com/api/characters/616\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/623\",\r\n      \"http://www.anapioficeandfire.com/api/characters/648\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/656\",\r\n      \"http://www.anapioficeandfire.com/api/characters/662\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/668\",\r\n      \"http://www.anapioficeandfire.com/api/characters/679\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/685\",\r\n      \"http://www.anapioficeandfire.com/api/characters/694\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/695\",\r\n      \"http://www.anapioficeandfire.com/api/characters/696\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/697\",\r\n      \"http://www.anapioficeandfire.com/api/characters/698\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/709\",\r\n      \"http://www.anapioficeandfire.com/api/characters/716\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/719\",\r\n      \"http://www.anapioficeandfire.com/api/characters/729\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/737\",\r\n      \"http://www.anapioficeandfire.com/api/characters/744\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/749\",\r\n      \"http://www.anapioficeandfire.com/api/characters/759\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/767\",\r\n      \"http://www.anapioficeandfire.com/api/characters/773\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/777\",\r\n      \"http://www.anapioficeandfire.com/api/characters/778\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/779\",\r\n      \"http://www.anapioficeandfire.com/api/characters/782\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/794\",\r\n      \"http://www.anapioficeandfire.com/api/characters/797\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/803\",\r\n      \"http://www.anapioficeandfire.com/api/characters/805\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/808\",\r\n      \"http://www.anapioficeandfire.com/api/characters/813\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/833\",\r\n      \"http://www.anapioficeandfire.com/api/characters/836\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/841\",\r\n      \"http://www.anapioficeandfire.com/api/characters/859\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/865\",\r\n      \"http://www.anapioficeandfire.com/api/characters/868\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/869\",\r\n      \"http://www.anapioficeandfire.com/api/characters/870\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/871\",\r\n      \"http://www.anapioficeandfire.com/api/characters/872\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/873\",\r\n      \"http://www.anapioficeandfire.com/api/characters/874\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/875\",\r\n      \"http://www.anapioficeandfire.com/api/characters/878\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/886\",\r\n      \"http://www.anapioficeandfire.com/api/characters/887\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/888\",\r\n      \"http://www.anapioficeandfire.com/api/characters/901\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/911\",\r\n      \"http://www.anapioficeandfire.com/api/characters/916\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/917\",\r\n      \"http://www.anapioficeandfire.com/api/characters/918\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/920\",\r\n      \"http://www.anapioficeandfire.com/api/characters/945\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/951\",\r\n      \"http://www.anapioficeandfire.com/api/characters/969\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/971\",\r\n      \"http://www.anapioficeandfire.com/api/characters/986\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1014\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1023\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1026\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1032\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1034\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1040\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1048\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1050\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1052\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1057\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1070\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1072\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1076\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1077\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1078\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1079\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1099\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1111\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1149\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1169\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1175\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1181\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1202\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1239\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1242\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1286\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1354\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1358\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1375\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1388\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1398\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1399\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1406\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1411\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1417\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1435\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1444\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1458\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1462\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1513\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1514\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1527\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1539\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1545\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1558\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1561\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1589\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1608\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1631\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1650\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1672\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1690\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1718\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1725\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1739\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1746\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1756\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1786\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1862\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1866\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1874\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1884\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1891\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1905\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1908\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1944\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/1976\",\r\n      \"http://www.anapioficeandfire.com/api/characters/1989\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2048\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2056\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2059\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2071\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/characters/2075\",\r\n      \"http://www.anapioficeandfire.com/api/characters/2138\"\r\n
+        \   ],\r\n    \"povCharacters\": []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/books/12\",\r\n
+        \   \"name\": \"A Knight of the Seven Kingdoms\",\r\n    \"isbn\": \"978-0345533487\",\r\n
+        \   \"authors\": [\r\n      \"George R. R. Martin\"\r\n    ],\r\n    \"numberOfPages\":
+        368,\r\n    \"publisher\": \"Bantam Books\",\r\n    \"country\": \"United
+        States\",\r\n    \"mediaType\": \"Hardcover\",\r\n    \"released\": \"2015-10-06T00:00:00\",\r\n
+        \   \"characters\": [],\r\n    \"povCharacters\": []\r\n  }\r\n]"
+    http_version: 
+  recorded_at: Thu, 29 Dec 2016 17:48:23 GMT
+recorded_with: VCR 3.0.3
