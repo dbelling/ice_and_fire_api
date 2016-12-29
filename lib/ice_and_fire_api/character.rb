@@ -30,9 +30,9 @@ module IceAndFireApi
       new(attributes)
     end
 
-    def self.find_by_name(name)
-      name_query = URI.encode_www_form_component(name.to_s)
-      response = Faraday.get("#{IceAndFireApi::API_URL}/characters?name=#{name_query}")
+    def self.find_by(query_parameters)
+      character_query = URI.encode_www_form(query_parameters)
+      response = Faraday.get("#{IceAndFireApi::API_URL}/characters?#{character_query}")
       attributes_response = JSON.parse(response.body)
       attributes_array = []
       attributes_response.each do |attributes|

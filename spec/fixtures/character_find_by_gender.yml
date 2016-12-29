@@ -1,0 +1,145 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://www.anapioficeandfire.com/api/characters?gender=Female&isAlive=false
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.10.0
+  response:
+    status:
+      code: 200
+      message: 
+    headers:
+      date:
+      - Thu, 29 Dec 2016 17:42:18 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '1030'
+      connection:
+      - close
+      set-cookie:
+      - __cfduid=d32f67267fe7c6ce307651bbcd78e9c481483033335; expires=Fri, 29-Dec-17
+        17:42:15 GMT; path=/; domain=.anapioficeandfire.com; HttpOnly, ARRAffinity=bb02697a828a67d629cd8387c3e7fa89b5a5514b4c02be02a81f93ed19b16cab;Path=/;Domain=www.anapioficeandfire.com
+      cache-control:
+      - no-transform, must-revalidate, max-age=0, private
+      last-modified:
+      - Thu, 29 Dec 2016 17:42:18 GMT
+      etag:
+      - '"85b3ce8f67314deca9b1b8883a009c3e"'
+      vary:
+      - Accept-Encoding
+      link:
+      - <http://www.anapioficeandfire.com/api/characters?isAlive=False&gender=Female&page=2&pageSize=10>;
+        rel="next", <http://www.anapioficeandfire.com/api/characters?isAlive=False&gender=Female&page=1&pageSize=10>;
+        rel="first", <http://www.anapioficeandfire.com/api/characters?isAlive=False&gender=Female&page=38&pageSize=10>;
+        rel="last"
+      x-aspnet-version:
+      - 4.0.30319
+      x-powered-by:
+      - ASP.NET
+      server:
+      - cloudflare-nginx
+      cf-ray:
+      - 318f0c2da6a95516-ORD
+    body:
+      encoding: ASCII-8BIT
+      string: "[\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/16\",\r\n
+        \   \"name\": \"Margaery Tyrell\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"Westeros\",\r\n    \"born\": \"In 283 AC, at Highgarden\",\r\n    \"died\":
+        \"\",\r\n    \"titles\": [\r\n      \"Queen of the Seven Kingdoms\"\r\n    ],\r\n
+        \   \"aliases\": [\r\n      \"The Little Queen\",\r\n      \"The Little Rose\",\r\n
+        \     \"Maid Margaery\"\r\n    ],\r\n    \"father\": \"\",\r\n    \"mother\":
+        \"\",\r\n    \"spouse\": \"http://www.anapioficeandfire.com/api/characters/862\",\r\n
+        \   \"allegiances\": [\r\n      \"http://www.anapioficeandfire.com/api/houses/398\"\r\n
+        \   ],\r\n    \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/1\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/2\",\r\n      \"http://www.anapioficeandfire.com/api/books/3\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/5\",\r\n      \"http://www.anapioficeandfire.com/api/books/8\"\r\n
+        \   ],\r\n    \"povBooks\": [],\r\n    \"tvSeries\": [\r\n      \"Season 2\",\r\n
+        \     \"Season 3\",\r\n      \"Season 4\",\r\n      \"Season 5\",\r\n      \"Season
+        6\"\r\n    ],\r\n    \"playedBy\": [\r\n      \"Natalie Dormer\"\r\n    ]\r\n
+        \ },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/17\",\r\n
+        \   \"name\": \"Melicent\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"\",\r\n    \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n
+        \     \"Septa\"\r\n    ],\r\n    \"aliases\": [],\r\n    \"father\": \"\",\r\n
+        \   \"mother\": \"\",\r\n    \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n
+        \   \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/5\"\r\n
+        \   ],\r\n    \"povBooks\": [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/19\",\r\n
+        \   \"name\": \"Moelle\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"\",\r\n    \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n
+        \     \"Septa\"\r\n    ],\r\n    \"aliases\": [],\r\n    \"father\": \"\",\r\n
+        \   \"mother\": \"\",\r\n    \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n
+        \   \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\": []\r\n  },\r\n  {\r\n    \"url\":
+        \"http://www.anapioficeandfire.com/api/characters/21\",\r\n    \"name\": \"Nysterica\",\r\n
+        \   \"gender\": \"Female\",\r\n    \"culture\": \"\",\r\n    \"born\": \"\",\r\n
+        \   \"died\": \"\",\r\n    \"titles\": [\r\n      \"Septa\"\r\n    ],\r\n
+        \   \"aliases\": [],\r\n    \"father\": \"\",\r\n    \"mother\": \"\",\r\n
+        \   \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n    \"books\": [\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/3\",\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\": []\r\n  },\r\n  {\r\n    \"url\":
+        \"http://www.anapioficeandfire.com/api/characters/25\",\r\n    \"name\": \"Scolera\",\r\n
+        \   \"gender\": \"Female\",\r\n    \"culture\": \"\",\r\n    \"born\": \"\",\r\n
+        \   \"died\": \"\",\r\n    \"titles\": [\r\n      \"Septa\"\r\n    ],\r\n
+        \   \"aliases\": [],\r\n    \"father\": \"\",\r\n    \"mother\": \"\",\r\n
+        \   \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n    \"books\": [\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/5\",\r\n      \"http://www.anapioficeandfire.com/api/books/8\"\r\n
+        \   ],\r\n    \"povBooks\": [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/28\",\r\n
+        \   \"name\": \"Unella\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"\",\r\n    \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n
+        \     \"Septa\"\r\n    ],\r\n    \"aliases\": [],\r\n    \"father\": \"\",\r\n
+        \   \"mother\": \"\",\r\n    \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n
+        \   \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [\r\n      \"Season 5\",\r\n      \"Season 6\"\r\n
+        \   ],\r\n    \"playedBy\": [\r\n      \"Hannah Waddingham\"\r\n    ]\r\n
+        \ },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/48\",\r\n
+        \   \"name\": \"Aelinor Penrose\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"Valyrian\",\r\n    \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\":
+        [\r\n      \"Queen\"\r\n    ],\r\n    \"aliases\": [],\r\n    \"father\":
+        \"\",\r\n    \"mother\": \"\",\r\n    \"spouse\": \"http://www.anapioficeandfire.com/api/characters/61\",\r\n
+        \   \"allegiances\": [\r\n      \"http://www.anapioficeandfire.com/api/houses/300\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/houses/378\"\r\n    ],\r\n    \"books\":
+        [\r\n      \"http://www.anapioficeandfire.com/api/books/6\",\r\n      \"http://www.anapioficeandfire.com/api/books/11\"\r\n
+        \   ],\r\n    \"povBooks\": [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\":
+        []\r\n  },\r\n  {\r\n    \"url\": \"http://www.anapioficeandfire.com/api/characters/63\",\r\n
+        \   \"name\": \"Aglantine\",\r\n    \"gender\": \"Female\",\r\n    \"culture\":
+        \"\",\r\n    \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n
+        \     \"Septa\"\r\n    ],\r\n    \"aliases\": [],\r\n    \"father\": \"\",\r\n
+        \   \"mother\": \"\",\r\n    \"spouse\": \"\",\r\n    \"allegiances\": [],\r\n
+        \   \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\": []\r\n  },\r\n  {\r\n    \"url\":
+        \"http://www.anapioficeandfire.com/api/characters/66\",\r\n    \"name\": \"Alannys
+        Harlaw\",\r\n    \"gender\": \"Female\",\r\n    \"culture\": \"Ironborn\",\r\n
+        \   \"born\": \"\",\r\n    \"died\": \"\",\r\n    \"titles\": [\r\n      \"Queen
+        of the Iron Islands\"\r\n    ],\r\n    \"aliases\": [\r\n      \"Lanny\"\r\n
+        \   ],\r\n    \"father\": \"\",\r\n    \"mother\": \"\",\r\n    \"spouse\":
+        \"http://www.anapioficeandfire.com/api/characters/12\",\r\n    \"allegiances\":
+        [\r\n      \"http://www.anapioficeandfire.com/api/houses/169\",\r\n      \"http://www.anapioficeandfire.com/api/houses/178\"\r\n
+        \   ],\r\n    \"books\": [\r\n      \"http://www.anapioficeandfire.com/api/books/1\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/2\",\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\": []\r\n  },\r\n  {\r\n    \"url\":
+        \"http://www.anapioficeandfire.com/api/characters/69\",\r\n    \"name\": \"Alerie
+        Hightower\",\r\n    \"gender\": \"Female\",\r\n    \"culture\": \"\",\r\n
+        \   \"born\": \"In or between 257 AC and 263 AC, at Oldtown\",\r\n    \"died\":
+        \"\",\r\n    \"titles\": [\r\n      \"Lady of Highgarden\"\r\n    ],\r\n    \"aliases\":
+        [],\r\n    \"father\": \"\",\r\n    \"mother\": \"\",\r\n    \"spouse\": \"http://www.anapioficeandfire.com/api/characters/691\",\r\n
+        \   \"allegiances\": [\r\n      \"http://www.anapioficeandfire.com/api/houses/195\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/houses/398\"\r\n    ],\r\n    \"books\":
+        [\r\n      \"http://www.anapioficeandfire.com/api/books/1\",\r\n      \"http://www.anapioficeandfire.com/api/books/2\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/3\",\r\n      \"http://www.anapioficeandfire.com/api/books/5\",\r\n
+        \     \"http://www.anapioficeandfire.com/api/books/8\"\r\n    ],\r\n    \"povBooks\":
+        [],\r\n    \"tvSeries\": [],\r\n    \"playedBy\": []\r\n  }\r\n]"
+    http_version: 
+  recorded_at: Thu, 29 Dec 2016 17:42:18 GMT
+recorded_with: VCR 3.0.3

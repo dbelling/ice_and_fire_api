@@ -46,10 +46,10 @@ The [Ice and Fire API](https://anapioficeandfire.com/) contains endpoints for th
 
     or
 
-    **Find a book resource through a name filter.**
+    **Find a book resource through a [filter](https://github.com/joakimskoog/AnApiOfIceAndFire/blob/master/AnApiOfIceAndFire/Content/Documentation/Books.md#filtering-books).**
 
     ```ruby
-      IceAndFireApi::Book.find_by_name('A Game of Thrones')
+      IceAndFireApi::Book.find_by({toReleaseDate: '2010-09-22T00:00:00', pageSize: 5})
     ```
   * [`Characters`](https://anapioficeandfire.com/Documentation#characters)
 
@@ -61,10 +61,10 @@ The [Ice and Fire API](https://anapioficeandfire.com/) contains endpoints for th
 
     or
 
-    **Find a character resource through a name filter.**
+    **Find a character resource through a [filter](https://github.com/joakimskoog/AnApiOfIceAndFire/blob/master/AnApiOfIceAndFire/Content/Documentation/Characters.md#filtering-characters).**
 
     ```ruby
-      IceAndFireApi::Character.find_by_name('Eddard Stark')
+      IceAndFireApi::Character.find_by(name: 'Eddard Stark')
     ```
 
   * [`Houses`](https://anapioficeandfire.com/Documentation#houses)
@@ -77,10 +77,10 @@ The [Ice and Fire API](https://anapioficeandfire.com/) contains endpoints for th
 
     or
 
-    **Find a house resource through its associated ID.**
+    **Find a house resource through a [filter](https://github.com/joakimskoog/AnApiOfIceAndFire/blob/master/AnApiOfIceAndFire/Content/Documentation/Houses.md#filtering-houses).**
 
     ```ruby
-      IceAndFireApi::House.find_by_name('House Algood')
+      IceAndFireApi::House.find_by({region: 'The North', pageSize: 15})
     ```
 
 ## Contributing
