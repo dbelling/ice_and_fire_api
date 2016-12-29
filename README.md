@@ -2,6 +2,9 @@
 
 [![Gem Version](https://badge.fury.io/rb/ice_and_fire_api.svg)](https://badge.fury.io/rb/ice_and_fire_api)
 [![Downloads](https://img.shields.io/gem/dt/ice_and_fire_api.svg)](https://rubygems.org/gems/ice_and_fire_api)
+[![Build Status](https://travis-ci.org/dbelling/ice_and_fire_api.png?branch=master)](https://travis-ci.org/dbelling/ice_and_fire_api)
+
+![Game of Thrones](http://www.cheatsheet.com/wp-content/uploads/2016/01/GoT-1024x512.jpg)
 
 This gem provides an interface for the [Ice And Fire API](https://anapioficeandfire.com/). It was motivated by the current [lack of support](https://anapioficeandfire.com/Documentation#library-elixir) for a ruby library. More response fields and schema information for `House`, `Character`, and `Book` resources is available through the [documentation](https://anapioficeandfire.com/Documentation#root).
 
