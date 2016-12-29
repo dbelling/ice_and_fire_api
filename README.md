@@ -61,7 +61,7 @@ The [Ice and Fire API](https://anapioficeandfire.com/) contains endpoints for th
     **Find a character resource through a name filter.**
 
     ```ruby
-      IceAndFireApi::Character.find('Eddard Stark')
+      IceAndFireApi::Character.find_by_name('Eddard Stark')
     ```
 
   * [`Houses`](https://anapioficeandfire.com/Documentation#houses)
@@ -77,7 +77,7 @@ The [Ice and Fire API](https://anapioficeandfire.com/) contains endpoints for th
     **Find a house resource through its associated ID.**
 
     ```ruby
-      IceAndFireApi::House.find('House Algood')
+      IceAndFireApi::House.find_by_name('House Algood')
     ```
 
 ## Contributing
